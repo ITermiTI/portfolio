@@ -38,6 +38,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  overflow: auto;
 }
 
 .photo-box {
@@ -46,6 +48,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  overflow: auto;
 }
 
 .my-photo {
@@ -68,6 +72,8 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+
+  overflow: auto;
 }
 
 .icon-desc-section {
@@ -78,6 +84,8 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+
+  overflow: auto;
 }
 
 .desc-text {
@@ -93,12 +101,16 @@
   align-items: center;
 
   justify-content: start;
+
+  overflow: auto;
 }
 
 .education-section {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  overflow: auto;
   flex: 1;
 }
 
@@ -115,6 +127,8 @@ table {
   margin: 10px;
   margin-left: 20px;
   margin-right: 20px;
+
+  overflow: auto;
 }
 
 table td {
@@ -177,12 +191,15 @@ table tr td:last-child {
   color: white;
   font-size: 26px;
   text-align: center;
+
+  overflow: auto;
 }
 .mail-box {
   display: flex;
   flex-direction: row;
   align-items: center;
 
+  overflow: auto;
   margin-bottom: 30px;
 }
 

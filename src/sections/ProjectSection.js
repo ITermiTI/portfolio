@@ -21,7 +21,7 @@ class ProjectSection extends React.Component {
         link = "https://github.com/ITermiTI/JoyFinder";
         break;
       case 2:
-        link = "";
+        link = "https://github.com/ITermiTI/portfolio";
         break;
       case 3:
         link = "https://github.com/ITermiTI/TransportCompanyWebApp";

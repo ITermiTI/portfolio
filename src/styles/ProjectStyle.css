@@ -5,6 +5,7 @@
   align-items: center;
   flex-direction: column;
   height: 150vh;
+  overflow: auto;
 }
 .spacer {
   background-color: rgb(255, 246, 167);

@@ -15,15 +15,15 @@
     "react-icons": "^3.10.0",
     "react-scripts": "3.4.1",
     "react-simple-maps": "^2.1.2",
-    "react-tooltip": "^4.2.7",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "react-tooltip": "^4.2.7"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

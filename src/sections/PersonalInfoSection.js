@@ -4,6 +4,7 @@ import { FaGithub, FaLinkedin, FaPaperclip } from "react-icons/fa";
 import polwroc from "../assets/politechnika-wroclawska.png";
 import xeva from "../assets/xeva.PNG";
 import myphoto from "../assets/me.jpg";
+import mayeryn from "../assets/mayeryn.png";
 import { GrMail } from "react-icons/gr";
 
 class PersonalInfoSection extends React.Component {
@@ -16,7 +17,10 @@ class PersonalInfoSection extends React.Component {
       "https://www.linkedin.com/in/pawe%C5%82-owczarek-a433a01a2/";
   }
 
-  downloadCV() {}
+  downloadCV() {
+    window.location.href =
+      "https://drive.google.com/file/d/18NSkUG4ueXtf5tGww6-7m-nO4GC43D8u/view?usp=sharing";
+  }
 
   render() {
     return (
@@ -96,6 +100,17 @@ class PersonalInfoSection extends React.Component {
                 <td className="table-cell">Team leader and developer</td>
                 <td className="table-cell">
                   Devoloping an app for the company
+                </td>
+              </tr>
+              <tr className="data-row">
+                <td className="table-cell">
+                  <img src={mayeryn} className="firm-logo" />
+                </td>
+                <td className="table-cell">Mayeryn</td>
+                <td className="table-cell">07.2020 - now</td>
+                <td className="table-cell">Junior Java Developer</td>
+                <td className="table-cell">
+                  Working as a Junior Java Developer Intern
                 </td>
               </tr>
             </table>

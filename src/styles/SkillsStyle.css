@@ -12,27 +12,62 @@
 .skill-table {
   min-width: 80%;
 }
+
+@media screen and (min-width: 1040px) {
+  .title-text {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Sriracha;
+    margin: 30px;
+  }
+  .table-header {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Sriracha;
+    margin: 15px;
+  }
+}
+
+@media screen and (max-width: 1040px) and (min-width: 480px) {
+  .title-text {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Sriracha;
+    margin: 20px;
+  }
+  .table-header {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Sriracha;
+    margin: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .title-text {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Sriracha;
+    margin: 10px;
+  }
+  .table-header {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Sriracha;
+    margin: 5px;
+  }
+}
 .it-section {
   display: flex;
   flex-direction: column;
   align-items: center;
 
   overflow: auto;
-}
-
-.title-text {
-  color: white;
-  font-size: 50px;
-  font-weight: bold;
-  font-family: Sriracha;
-  margin: 30px;
-}
-.table-header {
-  color: white;
-  font-size: 26px;
-  font-weight: bold;
-  font-family: Sriracha;
-  margin: 15px;
 }
 
 .language-personal-section {

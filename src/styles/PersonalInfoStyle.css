@@ -53,18 +53,10 @@
 }
 
 .my-photo {
-  width: 30%;
-  height: 20%;
+  width: 35%;
+  height: 25%;
   border-radius: 50%;
   margin-bottom: 20px;
-}
-
-.name-text {
-  color: white;
-
-  font-size: 32px;
-  font-weight: bold;
-  font-family: Sriracha;
 }
 
 .icons-section {
@@ -87,7 +79,188 @@
 
   overflow: auto;
 }
+@media screen and (min-width: 1040px) {
+  .introduction-text {
+    width: 50%;
+    color: white;
+    font-size: 26px;
+    text-align: center;
 
+    overflow: auto;
+  }
+
+  .education-experiance-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    justify-content: start;
+
+    overflow: auto;
+  }
+  .name-text {
+    color: white;
+
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Sriracha;
+  }
+
+  .education-text {
+    color: white;
+
+    font-family: Sriracha;
+    font-size: 32px;
+  }
+
+  .table-header {
+    color: white;
+    font-size: 22px;
+    padding: 10px;
+  }
+
+  .table-cell {
+    color: white;
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .university-logo {
+    width: 90px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .firm-logo {
+    width: 90px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1040px) and (min-width: 480px) {
+  .introduction-text {
+    width: 70%;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+
+    overflow: auto;
+  }
+
+  .education-experiance-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: start;
+
+    overflow: auto;
+  }
+  .name-text {
+    color: white;
+
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Sriracha;
+  }
+
+  .education-text {
+    color: white;
+
+    font-family: Sriracha;
+    font-size: 26px;
+  }
+
+  .table-header {
+    color: white;
+    font-size: 18px;
+    padding: 11px;
+  }
+
+  .table-cell {
+    color: white;
+    font-size: 13px;
+    padding: 7px;
+  }
+
+  .university-logo {
+    width: 60px;
+    height: 20%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .firm-logo {
+    width: 60px;
+    height: 20%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .introduction-text {
+    width: 90%;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+
+    overflow: auto;
+  }
+
+  .education-experiance-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: start;
+
+    overflow: auto;
+  }
+  .name-text {
+    color: white;
+
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Sriracha;
+  }
+
+  .education-text {
+    color: white;
+
+    font-family: Sriracha;
+    font-size: 18px;
+  }
+
+  .table-header {
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+  }
+
+  .table-cell {
+    color: white;
+    font-size: 12px;
+    padding: 4px;
+  }
+
+  .university-logo {
+    width: 30px;
+    height: 20%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .firm-logo {
+    width: 30px;
+    height: 20%;
+    margin: 0;
+    padding: 0;
+  }
+}
 .desc-text {
   color: white;
 
@@ -95,12 +268,10 @@
   font-family: Sriracha;
 }
 
-.education-experiance-section {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
-  justify-content: start;
+table {
+  border-collapse: collapse;
+  text-align: center;
+  margin: 10px;
 
   overflow: auto;
 }
@@ -112,23 +283,6 @@
 
   overflow: auto;
   flex: 1;
-}
-
-.education-text {
-  color: white;
-
-  font-family: Sriracha;
-  font-size: 32px;
-}
-
-table {
-  border-collapse: collapse;
-  text-align: center;
-  margin: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
-
-  overflow: auto;
 }
 
 table td {
@@ -151,7 +305,6 @@ table tr:first-child td {
 }
 table tr td:first-child {
   border-left: 0;
-  width: fit-content;
 }
 table tr:last-child td {
   border-bottom: 0;
@@ -160,40 +313,6 @@ table tr td:last-child {
   border-right: 0;
 }
 
-.table-header {
-  color: white;
-  font-size: 24px;
-  padding: 15px;
-}
-
-.table-cell {
-  color: white;
-  font-size: 16px;
-  padding: 10px;
-}
-
-.university-logo {
-  width: 30%;
-  height: 20%;
-  margin: 0;
-  padding: 0;
-}
-
-.firm-logo {
-  width: 30%;
-  height: 20%;
-  margin: 0;
-  padding: 0;
-}
-
-.introduction-text {
-  width: 50%;
-  color: white;
-  font-size: 26px;
-  text-align: center;
-
-  overflow: auto;
-}
 .mail-box {
   display: flex;
   flex-direction: row;

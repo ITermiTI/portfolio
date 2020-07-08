@@ -37,7 +37,7 @@
   }
 }
 
-@media screen and (max-width: 1040px) and (min-width: 480px) {
+@media screen and (max-width: 1040px) and (min-width: 540px) {
   .name-and-surname-text {
     font-weight: bold;
     font-size: 60px;
@@ -56,7 +56,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 540px) {
   .name-and-surname-text {
     font-weight: bold;
     font-size: 30px;

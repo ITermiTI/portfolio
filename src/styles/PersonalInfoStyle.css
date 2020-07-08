@@ -138,9 +138,16 @@
     margin: 0;
     padding: 0;
   }
+
+  .desc-text {
+    color: white;
+
+    font-size: 20px;
+    font-family: Sriracha;
+  }
 }
 
-@media screen and (max-width: 1040px) and (min-width: 480px) {
+@media screen and (max-width: 1040px) and (min-width: 540px) {
   .introduction-text {
     width: 70%;
     color: white;
@@ -188,24 +195,31 @@
 
   .university-logo {
     width: 60px;
-    height: 20%;
+    height: 20px;
     margin: 0;
     padding: 0;
   }
 
   .firm-logo {
     width: 60px;
-    height: 20%;
+    height: 20px;
     margin: 0;
     padding: 0;
   }
+
+  .desc-text {
+    color: white;
+
+    font-size: 16px;
+    font-family: Sriracha;
+  }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 540px) {
   .introduction-text {
     width: 90%;
     color: white;
-    font-size: 14px;
+    font-size: 13px;
     text-align: center;
 
     overflow: auto;
@@ -232,7 +246,7 @@
     color: white;
 
     font-family: Sriracha;
-    font-size: 18px;
+    font-size: 19px;
   }
 
   .table-header {
@@ -249,23 +263,24 @@
 
   .university-logo {
     width: 30px;
-    height: 20%;
+    height: 15px;
     margin: 0;
     padding: 0;
   }
 
   .firm-logo {
     width: 30px;
-    height: 20%;
+    height: 15px;
     margin: 0;
     padding: 0;
   }
-}
-.desc-text {
-  color: white;
 
-  font-size: 12;
-  font-family: Sriracha;
+  .desc-text {
+    color: white;
+
+    font-size: 12px;
+    font-family: Sriracha;
+  }
 }
 
 table {

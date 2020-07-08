@@ -37,10 +37,10 @@
 
   overflow: auto;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 540px) {
   .project-box {
     border: 2px solid gray;
-    width: 50%;
+    width: 60%;
     max-height: 120vh;
     overflow: auto;
   }
@@ -59,7 +59,7 @@
     font-size: 12px;
     font-family: Sriracha;
     margin: 5px;
-    margin-right: 15px;
+    margin-right: 8px;
     cursor: pointer;
   }
 
@@ -78,25 +78,25 @@
     text-align: center;
     margin: 5px;
 
-    padding-bottom: 7px;
+    padding-bottom: 2px;
     border-bottom: 2px solid gray;
   }
 
   .subtitle-text {
     color: white;
 
-    font-size: 18px;
+    font-size: 17px;
     font-family: Sriracha;
     text-align: center;
-    margin: 5px;
+    margin: 6px;
   }
   .difficulty {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin: 5px;
-    margin-right: 10px;
+    margin: 3px;
+    margin-right: 8px;
 
     overflow: auto;
   }
@@ -112,7 +112,7 @@
     font-size: 14px;
     font-family: Sriracha;
     text-align: left;
-    margin-left: 12px;
+    margin-left: 8px;
   }
 
   .authors-names {
@@ -121,9 +121,16 @@
     font-size: 10px;
     font-family: Sriracha;
   }
+
+  .app-link {
+    cursor: pointer;
+    margin: 10px;
+    color: lightblue;
+    text-decoration: underline;
+  }
 }
 
-@media screen and (max-width: 1040px) and (min-width: 480px) {
+@media screen and (max-width: 1040px) and (min-width: 540px) {
   .project-box {
     border: 2px solid gray;
     width: 45%;
@@ -213,6 +220,13 @@
     margin: 8px;
     font-size: 12px;
     font-family: Sriracha;
+  }
+
+  .app-link {
+    cursor: pointer;
+    margin: 20px;
+    color: lightblue;
+    text-decoration: underline;
   }
 }
 
@@ -357,11 +371,4 @@
 
   overflow: auto;
   width: 60%;
-}
-
-.app-link {
-  cursor: pointer;
-  margin: 30px;
-  color: lightblue;
-  text-decoration: underline;
 }

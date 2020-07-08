@@ -30,7 +30,7 @@
   }
 }
 
-@media screen and (max-width: 1040px) and (min-width: 480px) {
+@media screen and (max-width: 1040px) and (min-width: 540px) {
   .title-text {
     color: white;
     font-size: 35px;
@@ -46,7 +46,7 @@
     margin: 10px;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 540px) {
   .title-text {
     color: white;
     font-size: 24px;

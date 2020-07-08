@@ -30,7 +30,7 @@
   }
 }
 
-@media screen and (max-width: 860px) and (min-width: 480px) {
+@media screen and (max-width: 860px) and (min-width: 540px) {
   .navigation-text {
     font-weight: bold;
     font-size: 18px;
@@ -60,10 +60,10 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 540px) {
   .navigation-text {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 13px;
     font-family: Piedra;
     letter-spacing: 1px;
     box-shadow: black;
@@ -76,7 +76,7 @@
 
     cursor: pointer;
 
-    margin: 5px;
+    margin: 1px;
     padding-top: 8px;
 
     text-shadow: black;

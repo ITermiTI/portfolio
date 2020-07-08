@@ -4,7 +4,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 150vh;
   overflow: auto;
   width: 100%;
 }
@@ -38,6 +37,9 @@
   overflow: auto;
 }
 @media screen and (max-width: 540px) {
+  .project-section {
+    height: 170vh;
+  }
   .project-box {
     border: 2px solid gray;
     width: 60%;
@@ -96,14 +98,14 @@
     align-items: center;
     flex-direction: row;
     margin: 3px;
-    margin-right: 8px;
+    margin-right: 4px;
 
     overflow: auto;
   }
 
   .difficulty-square {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
   }
 
   .difficulty-text {
@@ -131,6 +133,9 @@
 }
 
 @media screen and (max-width: 1040px) and (min-width: 540px) {
+  .project-section {
+    height: 150vh;
+  }
   .project-box {
     border: 2px solid gray;
     width: 45%;
@@ -231,6 +236,9 @@
 }
 
 @media screen and (min-width: 1040px) {
+  .project-section {
+    height: 140vh;
+  }
   .project-box {
     border: 2px solid gray;
     min-width: 30%;

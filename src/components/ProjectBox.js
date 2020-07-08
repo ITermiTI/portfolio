@@ -91,17 +91,17 @@ class ProjectBox extends React.Component {
           <div className="difficulty-text">Difficulty:</div>
           <div>
             <FaSquare
-              size="25"
+              size="23"
               color={progressColors[0]}
               className="difficulty-square"
             />
             <FaSquare
-              size="25"
+              size="23"
               color={progressColors[1]}
               className="difficulty-square"
             />
             <FaSquare
-              size="25"
+              size="23"
               color={progressColors[2]}
               className="difficulty-square"
             />
